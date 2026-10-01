@@ -1,0 +1,6 @@
+# SYNTHETIC hand-written five-record example
+{"id": "invoice", "description": "Invoices take ages.\nPAIN: Manual copying\nSYSTEM: Invoice CSV\nMUST: Export invoice IDs\nACCEPT: Output IDs equal input IDs", "synthetic": true, "source": "synthetic-handwritten"}
+{"id": "bookings", "description": "We lose bookings.\nMUST: List booking IDs", "synthetic": true, "source": "synthetic-handwritten"}
+{"id": "stock", "description": "Stock work is confusing.\nACCEPT: Count matches supplied stock rows", "synthetic": true, "source": "synthetic-handwritten"}
+{"id": "rota", "description": "Help with our rota, please.", "synthetic": true, "source": "synthetic-handwritten"}
+{"id": "unicode", "description": "MUST: Preserve 東京 names and C:\\Users\\henry\\clients.csv\nACCEPT: Names match input exactly", "synthetic": true, "source": "synthetic-handwritten"}

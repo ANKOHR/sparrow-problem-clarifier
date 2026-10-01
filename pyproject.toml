@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sparrow-problem-clarifier"
+version = "0.1.0"
+description = "Deterministic client brief clarification with explicit evidence"
+requires-python = ">=3.10"
+
+[project.scripts]
+spc = "sparrow_problem_clarifier.cli:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
