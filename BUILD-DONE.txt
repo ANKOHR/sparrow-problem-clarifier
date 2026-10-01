@@ -1,0 +1,5 @@
+Test count: 34 passed.
+Local implementation commit hash: 74b0b5ab9e5c64e19db93b3d20c3171f5f3d4dc6
+Demo: installed spc fixtures, run and report completed in 0.757 seconds on 200 labelled synthetic records.
+
+Built a standard-library Python CLI that parses local JSON and JSONL client descriptions, extracts explicitly tagged requirements, acceptance criteria, systems and pain points with source line evidence, preserves unresolved context, generates clarification questions, and renders deterministic Markdown or JSON reports with provenance. Includes independent synthetic ground truth, a hand-written five-record example, adversarial and failure-mode coverage, atomic report writes, documentation, lessons and measured local acceptance evidence. Real-world usefulness and savings remain unmeasured; the final verdict awaits the required two-week real-use evidence window. No publishing performed. This file is committed in a subsequent evidence commit so it can reference the exact implementation commit without a self-referential hash.
